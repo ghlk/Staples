@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF13D8562AC9AB0A00D2B957 /* StaplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF13D8552AC9AB0A00D2B957 /* StaplesApp.swift */; };
+		CF13D8582AC9AB0A00D2B957 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF13D8572AC9AB0A00D2B957 /* ContentView.swift */; };
+		CF13D85A2AC9AB0D00D2B957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF13D8592AC9AB0D00D2B957 /* Assets.xcassets */; };
+		CF13D85D2AC9AB0D00D2B957 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF13D85C2AC9AB0D00D2B957 /* Preview Assets.xcassets */; };
+		CF13D8672AC9AB0D00D2B957 /* StaplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF13D8662AC9AB0D00D2B957 /* StaplesTests.swift */; };
+		CF13D8712AC9AB0D00D2B957 /* StaplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF13D8702AC9AB0D00D2B957 /* StaplesUITests.swift */; };
+		CF13D8732AC9AB0D00D2B957 /* StaplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF13D8722AC9AB0D00D2B957 /* StaplesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF13D8632AC9AB0D00D2B957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF13D84A2AC9AB0A00D2B957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF13D8512AC9AB0A00D2B957;
+			remoteInfo = Staples;
+		};
+		CF13D86D2AC9AB0D00D2B957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF13D84A2AC9AB0A00D2B957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF13D8512AC9AB0A00D2B957;
+			remoteInfo = Staples;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF13D8522AC9AB0A00D2B957 /* Staples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Staples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF13D8552AC9AB0A00D2B957 /* StaplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaplesApp.swift; sourceTree = "<group>"; };
+		CF13D8572AC9AB0A00D2B957 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF13D8592AC9AB0D00D2B957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF13D85C2AC9AB0D00D2B957 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF13D8622AC9AB0D00D2B957 /* StaplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF13D8662AC9AB0D00D2B957 /* StaplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaplesTests.swift; sourceTree = "<group>"; };
+		CF13D86C2AC9AB0D00D2B957 /* StaplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF13D8702AC9AB0D00D2B957 /* StaplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaplesUITests.swift; sourceTree = "<group>"; };
+		CF13D8722AC9AB0D00D2B957 /* StaplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF13D84F2AC9AB0A00D2B957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF13D85F2AC9AB0D00D2B957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF13D8692AC9AB0D00D2B957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF13D8492AC9AB0A00D2B957 = {
+			isa = PBXGroup;
+			children = (
+				CF13D8542AC9AB0A00D2B957 /* Staples */,
+				CF13D8652AC9AB0D00D2B957 /* StaplesTests */,
+				CF13D86F2AC9AB0D00D2B957 /* StaplesUITests */,
+				CF13D8532AC9AB0A00D2B957 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF13D8532AC9AB0A00D2B957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF13D8522AC9AB0A00D2B957 /* Staples.app */,
+				CF13D8622AC9AB0D00D2B957 /* StaplesTests.xctest */,
+				CF13D86C2AC9AB0D00D2B957 /* StaplesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF13D8542AC9AB0A00D2B957 /* Staples */ = {
+			isa = PBXGroup;
+			children = (
+				CF13D8552AC9AB0A00D2B957 /* StaplesApp.swift */,
+				CF13D8572AC9AB0A00D2B957 /* ContentView.swift */,
+				CF13D8592AC9AB0D00D2B957 /* Assets.xcassets */,
+				CF13D85B2AC9AB0D00D2B957 /* Preview Content */,
+			);
+			path = Staples;
+			sourceTree = "<group>";
+		};
+		CF13D85B2AC9AB0D00D2B957 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF13D85C2AC9AB0D00D2B957 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF13D8652AC9AB0D00D2B957 /* StaplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF13D8662AC9AB0D00D2B957 /* StaplesTests.swift */,
+			);
+			path = StaplesTests;
+			sourceTree = "<group>";
+		};
+		CF13D86F2AC9AB0D00D2B957 /* StaplesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF13D8702AC9AB0D00D2B957 /* StaplesUITests.swift */,
+				CF13D8722AC9AB0D00D2B957 /* StaplesUITestsLaunchTests.swift */,
+			);
+			path = StaplesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF13D8512AC9AB0A00D2B957 /* Staples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF13D8762AC9AB0D00D2B957 /* Build configuration list for PBXNativeTarget "Staples" */;
+			buildPhases = (
+				CF13D84E2AC9AB0A00D2B957 /* Sources */,
+				CF13D84F2AC9AB0A00D2B957 /* Frameworks */,
+				CF13D8502AC9AB0A00D2B957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Staples;
+			productName = Staples;
+			productReference = CF13D8522AC9AB0A00D2B957 /* Staples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF13D8612AC9AB0D00D2B957 /* StaplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF13D8792AC9AB0D00D2B957 /* Build configuration list for PBXNativeTarget "StaplesTests" */;
+			buildPhases = (
+				CF13D85E2AC9AB0D00D2B957 /* Sources */,
+				CF13D85F2AC9AB0D00D2B957 /* Frameworks */,
+				CF13D8602AC9AB0D00D2B957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF13D8642AC9AB0D00D2B957 /* PBXTargetDependency */,
+			);
+			name = StaplesTests;
+			productName = StaplesTests;
+			productReference = CF13D8622AC9AB0D00D2B957 /* StaplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF13D86B2AC9AB0D00D2B957 /* StaplesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF13D87C2AC9AB0D00D2B957 /* Build configuration list for PBXNativeTarget "StaplesUITests" */;
+			buildPhases = (
+				CF13D8682AC9AB0D00D2B957 /* Sources */,
+				CF13D8692AC9AB0D00D2B957 /* Frameworks */,
+				CF13D86A2AC9AB0D00D2B957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF13D86E2AC9AB0D00D2B957 /* PBXTargetDependency */,
+			);
+			name = StaplesUITests;
+			productName = StaplesUITests;
+			productReference = CF13D86C2AC9AB0D00D2B957 /* StaplesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF13D84A2AC9AB0A00D2B957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CF13D8512AC9AB0A00D2B957 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CF13D8612AC9AB0D00D2B957 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CF13D8512AC9AB0A00D2B957;
+					};
+					CF13D86B2AC9AB0D00D2B957 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CF13D8512AC9AB0A00D2B957;
+					};
+				};
+			};
+			buildConfigurationList = CF13D84D2AC9AB0A00D2B957 /* Build configuration list for PBXProject "Staples" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF13D8492AC9AB0A00D2B957;
+			productRefGroup = CF13D8532AC9AB0A00D2B957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF13D8512AC9AB0A00D2B957 /* Staples */,
+				CF13D8612AC9AB0D00D2B957 /* StaplesTests */,
+				CF13D86B2AC9AB0D00D2B957 /* StaplesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF13D8502AC9AB0A00D2B957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF13D85D2AC9AB0D00D2B957 /* Preview Assets.xcassets in Resources */,
+				CF13D85A2AC9AB0D00D2B957 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF13D8602AC9AB0D00D2B957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF13D86A2AC9AB0D00D2B957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF13D84E2AC9AB0A00D2B957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF13D8582AC9AB0A00D2B957 /* ContentView.swift in Sources */,
+				CF13D8562AC9AB0A00D2B957 /* StaplesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF13D85E2AC9AB0D00D2B957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF13D8672AC9AB0D00D2B957 /* StaplesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF13D8682AC9AB0D00D2B957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF13D8712AC9AB0D00D2B957 /* StaplesUITests.swift in Sources */,
+				CF13D8732AC9AB0D00D2B957 /* StaplesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF13D8642AC9AB0D00D2B957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF13D8512AC9AB0A00D2B957 /* Staples */;
+			targetProxy = CF13D8632AC9AB0D00D2B957 /* PBXContainerItemProxy */;
+		};
+		CF13D86E2AC9AB0D00D2B957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF13D8512AC9AB0A00D2B957 /* Staples */;
+			targetProxy = CF13D86D2AC9AB0D00D2B957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF13D8742AC9AB0D00D2B957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF13D8752AC9AB0D00D2B957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF13D8772AC9AB0D00D2B957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Staples/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClovisWren.Staples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF13D8782AC9AB0D00D2B957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Staples/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClovisWren.Staples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF13D87A2AC9AB0D00D2B957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClovisWren.StaplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Staples.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Staples";
+			};
+			name = Debug;
+		};
+		CF13D87B2AC9AB0D00D2B957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClovisWren.StaplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Staples.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Staples";
+			};
+			name = Release;
+		};
+		CF13D87D2AC9AB0D00D2B957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClovisWren.StaplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Staples;
+			};
+			name = Debug;
+		};
+		CF13D87E2AC9AB0D00D2B957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClovisWren.StaplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Staples;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF13D84D2AC9AB0A00D2B957 /* Build configuration list for PBXProject "Staples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF13D8742AC9AB0D00D2B957 /* Debug */,
+				CF13D8752AC9AB0D00D2B957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF13D8762AC9AB0D00D2B957 /* Build configuration list for PBXNativeTarget "Staples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF13D8772AC9AB0D00D2B957 /* Debug */,
+				CF13D8782AC9AB0D00D2B957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF13D8792AC9AB0D00D2B957 /* Build configuration list for PBXNativeTarget "StaplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF13D87A2AC9AB0D00D2B957 /* Debug */,
+				CF13D87B2AC9AB0D00D2B957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF13D87C2AC9AB0D00D2B957 /* Build configuration list for PBXNativeTarget "StaplesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF13D87D2AC9AB0D00D2B957 /* Debug */,
+				CF13D87E2AC9AB0D00D2B957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF13D84A2AC9AB0A00D2B957 /* Project object */;
+}
